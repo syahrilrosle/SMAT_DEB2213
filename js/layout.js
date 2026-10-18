@@ -19,7 +19,7 @@ var HEADER_HTML = `
 
         <a href="index.html" class="header-brand" aria-label="Kembali ke Utama">
           <img
-            src="images/logoKVS.svg"
+            src="https://kvsegamat.moe.edu.my/images/logo.svg"
             alt="Logo Kolej Vokasional Segamat"
             class="header-logo"
             onerror="this.style.display='none'"
