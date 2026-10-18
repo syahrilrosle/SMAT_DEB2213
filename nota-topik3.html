@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Topik 3 DEB2213 — Perform Pneumatic and Hydraulic Maintenance">
+  <title>Topik 3 | DEB2213</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <header id="header-placeholder"></header>
+
+  <section class="topik-hero">
+    <div class="breadcrumb">
+      <a href="index.html">Utama</a> ›
+      <a href="nota-index.html">Nota Kuliah</a> ›
+      Topik 3
+    </div>
+    <div class="topik-hero-content">
+      <div class="topik-course">DEB2213 · Basic Pneumatic and Hydraulic</div>
+      <div class="topik-sequence">Topik 3.0</div>
+      <h1 class="topik-name">Perform Pneumatic and Hydraulic Maintenance</h1>
+    </div>
+  </section>
+
+  <section class="section" id="main-content">
+
+    <!-- ============================================ -->
+    <!-- OBJEKTIF PEMBELAJARAN -->
+    <!-- ============================================ -->
+    <h2>Objektif Pembelajaran</h2>
+
+    <p>Pada akhir topik ini, pelajar dapat:</p>
+
+    <ul>
+      <li><strong>3.1</strong> Memeriksa tekanan pada sistem pneumatik dan hidraulik.</li>
+      <li><strong>3.2</strong> Mengenal pasti pelbagai jenis tolok tekanan mengikut manual.</li>
+      <li><strong>3.3</strong> Mengaplikasi tolok tekanan untuk memeriksa tekanan mengikut manual operasi.</li>
+      <li><strong>3.4</strong> Merekod bacaan tekanan mengikut ukuran.</li>
+      <li><strong>3.5</strong> Memeriksa kebocoran luaran pada sistem pneumatik dan hidraulik.</li>
+      <li><strong>3.6</strong> Mengenal pasti dan menyetempatkan titik kebocoran luaran mengikut standard.</li>
+      <li><strong>3.7</strong> Menyelesaikan masalah kegagalan pneumatik dan hidraulik mengikut manual operasi.</li>
+      <li><strong>3.8</strong> Menggunakan alat dan instrumen untuk penyelesaian masalah mengikut manual operasi.</li>
+      <li><strong>3.9</strong> Melaksanakan keperluan penyelenggaraan mengikut manual servis.</li>
+      <li><strong>3.10</strong> Mengamalkan penggunaan alat pelindung diri (PPE) mengikut prosedur keselamatan.</li>
+    </ul>
+
+    <!-- ============================================ -->
+    <!-- 3.0 PENGENALAN -->
+    <!-- ============================================ -->
+    <h2>3.0 Pengenalan Penyelenggaraan</h2>
+
+    <div class="fact-box">
+      <div class="fact-icon">🛠️</div>
+      <div class="fact-content">
+        <div class="fact-title">Mengapa Penyelenggaraan Penting?</div>
+        <p class="fact-text">Penyelenggaraan sistematik diperlukan dalam sistem kawalan pneumatik &amp; hidraulik untuk <strong>mempastikan sistem mampu beroperasi dalam jangka masa yang lama</strong> dan meningkatkan keupayaan sistem supaya komponen tidak mudah rosak.</p>
+      </div>
+    </div>
+
+    <h3>Skop Topik 3</h3>
+
+    <div class="icon-grid">
+      <div class="icon-card">
+        <span class="icon-box">3.1</span>
+        <div class="icon-title">Check Pressure</div>
+        <div class="icon-desc">Periksa tekanan pneumatik &amp; hidraulik</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">3.2</span>
+        <div class="icon-title">External Leakage</div>
+        <div class="icon-desc">Periksa kebocoran luaran</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">3.3</span>
+        <div class="icon-title">Troubleshoot</div>
+        <div class="icon-desc">Atasi kegagalan sistem</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">3.4</span>
+        <div class="icon-title">Leak Test</div>
+        <div class="icon-desc">6 teknik uji kebocoran</div>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- GAMBARAJAH BLOK SKEMATIK -->
+    <!-- ============================================ -->
+    <h2>Gambarajah Blok Sistem Pneumatik</h2>
+
+    <p>Gambarajah blok di bawah menunjukkan aliran tenaga dan modifikasi kuasa dalam sistem pneumatik asas.</p>
+
+    <img src="images/topik3/gambarajah-blok-skematik.png" alt="Gambarajah Blok Skematik Sistem Pneumatik">
+    <p><em>Rajah 3.1: Gambarajah blok skematik sistem pneumatik — Compressor → Air Preparation → Service Unit → Directional Valve → Flow Control → Actuator</em></p>
+
+    <div class="flow-chart">
+      <div class="flow-item">Compressor</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-item">Air Preparation</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-item">Service Unit</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-item">Directional Valve</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-item">Flow Control</div>
+      <div class="flow-arrow">→</div>
+      <div class="flow-item">Actuator</div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- 3.1 SISTEM PENGHASILAN ANGIN -->
+    <!-- ============================================ -->
+    <h2>3.1 Sistem Penghasilan Angin (Production)</h2>
+
+    <p>Bahagian penghasilan angin terdiri daripada komponen-komponen utama yang berfungsi menghasilkan dan menyediakan udara termampat sebelum dihantar ke sistem.</p>
+
+    <img src="images/topik3/sistem-production.png" alt="Sistem Penghasilan Angin">
+    <p><em>Rajah 3.2: Sistem penghasilan angin (production) — kompressor, tangki, filter, dryer, unit servis</em></p>
+
+    <h3>10 Komponen Utama Sistem Penghasilan</h3>
+
+    <div class="icon-grid">
+      <div class="icon-card">
+        <span class="icon-box">⚙️</span>
+        <div class="icon-title">1. Kompressor</div>
+        <div class="icon-desc">Ambil udara atmosfera, mampatkan ke tekanan lebih tinggi</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🔌</span>
+        <div class="icon-title">2. Motor Elektrik</div>
+        <div class="icon-desc">Bekalkan kuasa mekanikal kepada kompressor</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">📊</span>
+        <div class="icon-title">3. Suis Tekanan</div>
+        <div class="icon-desc">Kawal motor elektrik ikut tekanan tangki</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">➡️</span>
+        <div class="icon-title">4. Check Valve</div>
+        <div class="icon-desc">Benarkan angin masuk tangki, halang aliran balik</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🛢️</span>
+        <div class="icon-title">5. Tangki</div>
+        <div class="icon-desc">Simpan angin mampat</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">📈</span>
+        <div class="icon-title">6. Pressure Gauge</div>
+        <div class="icon-desc">Tunjukkan tekanan dalam tangki</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">💧</span>
+        <div class="icon-title">7. Auto Drain</div>
+        <div class="icon-desc">Keluarkan air dari tangki</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🛡️</span>
+        <div class="icon-title">8. Safety Valve</div>
+        <div class="icon-desc">Lepaskan angin jika tekanan berlebihan</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">❄️</span>
+        <div class="icon-title">9. Refrigerated Air Dryer</div>
+        <div class="icon-desc">Sejukkan angin, cegah pemeluwapan</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🧽</span>
+        <div class="icon-title">10. Line Filter</div>
+        <div class="icon-desc">Tapis habuk, debu, air, kabus minyak</div>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- 3.2 SISTEM PENGGUNAAN ANGIN -->
+    <!-- ============================================ -->
+    <h2>3.2 Sistem Penggunaan Angin (Consumption)</h2>
+
+    <p>Bahagian penggunaan angin pula adalah sistem di mana udara termampat digunakan oleh pengguna akhir untuk melakukan kerja.</p>
+
+    <img src="images/topik3/sistem-consumption.png" alt="Sistem Penggunaan Angin">
+    <p><em>Rajah 3.3: Sistem penggunaan angin (consumption) — air take-off, service unit, valve, actuator</em></p>
+
+    <h3>6 Komponen Utama Sistem Penggunaan</h3>
+
+    <div class="icon-grid">
+      <div class="icon-card">
+        <span class="icon-box">🔽</span>
+        <div class="icon-title">1. Air Take-off</div>
+        <div class="icon-desc">Angin dikeluarkan dari paip utama untuk pengguna</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">💧</span>
+        <div class="icon-title">2. Auto-drain</div>
+        <div class="icon-desc">Cegah air bertakung dalam tiub</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🎛️</span>
+        <div class="icon-title">3. Air Service Unit</div>
+        <div class="icon-desc">Bekalkan angin bersih pada tekanan optima + pelincir</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🔀</span>
+        <div class="icon-title">4. Directional Valve</div>
+        <div class="icon-desc">Kawal arah pengaliran angin mampat</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">⚡</span>
+        <div class="icon-title">5. Actuator</div>
+        <div class="icon-desc">Tukar tenaga angin → kerja mekanikal</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🎯</span>
+        <div class="icon-title">6. Speed Controllers</div>
+        <div class="icon-desc">Larasan kelajuan silinder</div>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- 3.3 KEROSAKAN BIASA -->
+    <!-- ============================================ -->
+    <h2>3.3 Kerosakan-Kerosakan Biasa Semasa Pengujian Litar</h2>
+
+    <div class="fact-box">
+      <div class="fact-icon">⚠️</div>
+      <div class="fact-content">
+        <div class="fact-title">6 Kerosakan Biasa</div>
+        <p class="fact-text">Masalah yang sering berlaku semasa pengujian litar pneumatik &amp; hidraulik.</p>
+      </div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="col" style="width: 8%;">Bil.</th>
+          <th scope="col">Kerosakan</th>
+          <th scope="col">Kesan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>a</td>
+          <td>Tidak menyediakan pemampatan angin yang diperlukan</td>
+          <td>Sistem tidak berfungsi sepenuhnya</td>
+        </tr>
+        <tr>
+          <td>b</td>
+          <td>Valve berminyak</td>
+          <td>Valve tersekat, operasi tidak lancar</td>
+        </tr>
+        <tr>
+          <td>c</td>
+          <td>Kebocoran minyak semasa komponen bergerak</td>
+          <td>Pencemaran, kehilangan tekanan</td>
+        </tr>
+        <tr>
+          <td>d</td>
+          <td>Kehausan seal &amp; pergerakan komponen</td>
+          <td>Silinder &amp; valve tidak berfungsi optimum</td>
+        </tr>
+        <tr>
+          <td>e</td>
+          <td>Saluran paip, valve, cylinder berkarat</td>
+          <td>Kebocoran, penyumbatan</td>
+        </tr>
+        <tr>
+          <td>f</td>
+          <td>Mengeluarkan bunyi bising</td>
+          <td>Pencemaran bunyi</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ============================================ -->
+    <!-- 3.4 MASALAH SISTEM PNEUMATIK -->
+    <!-- ============================================ -->
+    <h2>3.4 Masalah Sistem Pneumatik</h2>
+
+    <h3>3.4.1 Signal Overlapping</h3>
+
+    <div class="safety-box">
+      <div class="safety-icon">⚠️</div>
+      <div class="safety-content">
+        <div class="safety-title">Masalah DCV Sistem Pneumatik</div>
+        <p class="safety-text">Signal Overlapping adalah masalah pada <strong>DCV (Directional Control Valve)</strong> sistem pneumatik. Ia berlaku apabila isyarat dari kiri dan kanan bertindih, menyebabkan valve tidak dapat beroperasi sepenuhnya.</p>
+      </div>
+    </div>
+
+    <div class="fact-box">
+      <div class="fact-icon">✅</div>
+      <div class="fact-content">
+        <div class="fact-title">Cara Mengatasi</div>
+        <p class="fact-text"><strong>Penambahan Memory Valve</strong> dalam litar pneumatik perlu diletakkan supaya valve dapat beroperasi sepenuhnya tanpa gangguan tekanan dari kiri atau kanan. Memory valve akan memberi isyarat sama ada <strong>Normally Open (NO)</strong> atau <strong>Normally Close (NC)</strong> kerana pengasingan aliran udara dilakukan.</p>
+      </div>
+    </div>
+
+    <h3>3.4.2 Masalah &amp; Kerosakan Komponen</h3>
+
+    <p>Prestasi sistem pneumatik akan terganggu akibat pelbagai masalah dan kerosakan komponen. Berikut merupakan masalah, kesan, dan cara mengatasinya:</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="col" style="width: 6%;">Bil.</th>
+          <th scope="col" style="width: 18%;">Kerosakan</th>
+          <th scope="col" style="width: 28%;">Kesan</th>
+          <th scope="col">Cara Mengatasi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Saiz tekanan bekalan angin rendah</td>
+          <td>a) Kelajuan piston rod berubah-ubah<br>b) Kelajuan daya silinder tidak konsisten</td>
+          <td>Laraskan udara pengatur tekanan pada tahap yang dikehendaki. Apabila tombol diputar, gegendang akan menolak pegas ke bawah dan menyebabkan liang injap menjadi lebih besar dan akan meninggikan tekanan udara yang mengalir ke sistem pneumatik.</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Pencemaran</td>
+          <td>a) Mengganggu pergerakan pada bahagian yang bergerak<br>b) Kerosakan komponen pneumatik</td>
+          <td>Pasang penapis udara pada talian pneumatik untuk menapis bendasing seperti habuk atau pasir halus. Bendasing akan terperangkap di bawah mangkuk penapis.</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Pemeluwapan</td>
+          <td>a) Komponen seperti valve akan berkarat<br>b) Kelajuan cylinder tersekat-sekat</td>
+          <td>Pasang pengering dan penyejuk di antara pemampat dan penerima. Ia bertujuan menyejukkan udara termampat dan pemeluwapan akan dibuang melalui injap salir yang disediakan.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- ============================================ -->
+    <!-- 3.5 TEKNIK UJI KEBOCORAN -->
+    <!-- ============================================ -->
+    <h2>3.5 Teknik Menguji Kebocoran</h2>
+
+    <p>Terdapat <strong>6 teknik</strong> untuk menguji kebocoran dalam sistem pneumatik &amp; hidraulik:</p>
+
+    <div class="icon-grid">
+      <div class="icon-card">
+        <span class="icon-box">👁️</span>
+        <div class="icon-title">1. Mata Kasar</div>
+        <div class="icon-desc">Lihat dengan mata kasar jika ada kebocoran</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">📉</span>
+        <div class="icon-title">2. Penunjuk Tekanan</div>
+        <div class="icon-desc">Lihat kejatuhan pada penunjuk tekanan</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🔊</span>
+        <div class="icon-title">3. Kesan Bunyi</div>
+        <div class="icon-desc">Dengar bunyi desiran angin bocor</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">💧</span>
+        <div class="icon-title">4. Buih Sabun</div>
+        <div class="icon-desc">Sapu buih sabun pada sambungan</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🔍</span>
+        <div class="icon-title">5. Pengesan Elektronik</div>
+        <div class="icon-desc">Guna alat pengesan kebocoran</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">⏱️</span>
+        <div class="icon-title">6. Kelewatan Pergerakan</div>
+        <div class="icon-desc">Kesan kelewatan pada pergerakan silinder</div>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- 3.6 SENARAI KOMPONEN PENYELENGGARAAN -->
+    <!-- ============================================ -->
+    <h2>3.6 Senarai Komponen Yang Memerlukan Penyelenggaraan Sistematik</h2>
+
+    <h3>a) Komponen Pemampat</h3>
+    <ul>
+      <li>Pressure gauge</li>
+      <li>Pressure regulator valve</li>
+      <li>Compressor oil</li>
+      <li>Air leakage</li>
+    </ul>
+
+    <h3>b) Komponen Lain</h3>
+    <ul>
+      <li>Service unit with on-off valve</li>
+      <li>Pipe line</li>
+      <li>Manifold</li>
+      <li>3/2 way push button normally open / normally close</li>
+      <li>Pressure gauge</li>
+      <li>One way flow control valve</li>
+      <li>Time delay valve (normally close)</li>
+      <li>Pressure Sequence valve</li>
+      <li>Double-acting cylinder</li>
+      <li>5/2 way double pilot valve</li>
+    </ul>
+
+    <!-- ============================================ -->
+    <!-- 3.7 JADUAL PENYELENGGARAAN -->
+    <!-- ============================================ -->
+    <h2>3.7 Jadual Penyelenggaraan Komponen</h2>
+
+    <h3>a) Senarai Komponen &amp; Jenis Semakan</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="col" style="width: 8%;">#</th>
+          <th scope="col">Komponen</th>
+          <th scope="col" style="width: 30%;">Jenis Semakan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Pressure gauge (compressor)</td><td>Visual</td></tr>
+        <tr><td>2</td><td>Pressure regulator valve</td><td>Visual</td></tr>
+        <tr><td>3</td><td>Compressor oil</td><td>Visual</td></tr>
+        <tr><td>4</td><td>Air leakage (compressor)</td><td>Visual</td></tr>
+        <tr><td>5</td><td>Service unit with on-off valve</td><td>Visual</td></tr>
+        <tr><td>6</td><td>Pipe line</td><td>External leakage</td></tr>
+        <tr><td>7</td><td>Manifold</td><td>External leakage</td></tr>
+        <tr><td>8</td><td>3/2 way push button NO/NC</td><td>External leakage</td></tr>
+        <tr><td>9</td><td>Pressure gauge</td><td>Visual</td></tr>
+        <tr><td>10</td><td>One way flow control valve</td><td>Visual / External</td></tr>
+        <tr><td>11</td><td>Time delay valve (NC)</td><td>Visual / External</td></tr>
+        <tr><td>12</td><td>Pressure Sequence valve</td><td>Visual</td></tr>
+        <tr><td>13</td><td>Double-acting cylinder</td><td>Visual / External</td></tr>
+      </tbody>
+    </table>
+
+    <h3>b) Kerosakan &amp; Cara Atasi</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Kerosakan</th>
+          <th scope="col">Cara Atasi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Meter needle tidak berfungsi</td><td><strong>Replace</strong></td></tr>
+        <tr><td>Valve ketat / longgar</td><td><strong>Service</strong> / <strong>Use bubble soap</strong></td></tr>
+        <tr><td>Kebocoran minyak</td><td><strong>Service</strong></td></tr>
+        <tr><td>Sambungan longgar</td><td><strong>Tight the connection</strong> / <strong>Use white tape</strong></td></tr>
+        <tr><td>Tersekat (stuck)</td><td><strong>Use compression air to service</strong></td></tr>
+        <tr><td>Tiada udara keluar (no air exit)</td><td><strong>Service</strong> / <strong>Replace</strong></td></tr>
+        <tr><td>Skru lock jammed</td><td><strong>Replace</strong></td></tr>
+        <tr><td>Tidak berfungsi (not function)</td><td><strong>Replace</strong></td></tr>
+        <tr><td>Bising (noisy)</td><td><strong>Use bubble soap</strong> / <strong>Tight connection</strong></td></tr>
+      </tbody>
+    </table>
+
+    <h3>c) Alat &amp; Bahan Penyelenggaraan</h3>
+
+    <div class="icon-grid">
+      <div class="icon-card">
+        <span class="icon-box">💧</span>
+        <div class="icon-title">Buih Sabun</div>
+        <div class="icon-desc">Kesan kebocoran udara pada sambungan</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🎞️</span>
+        <div class="icon-title">White Tape</div>
+        <div class="icon-desc">Ketatkan sambungan paip berulir</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">💨</span>
+        <div class="icon-title">Compressed Air</div>
+        <div class="icon-desc">Servis komponen tersekat (manifold, valve)</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🔧</span>
+        <div class="icon-title">Alat Ganti</div>
+        <div class="icon-desc">Ganti komponen rosak (gauge, valve, seal)</div>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- RUMUSAN TOPIK 3 -->
+    <!-- ============================================ -->
+    <div class="rumusan-box">
+      <h3>Rumusan Topik 3</h3>
+      <ul>
+        <li><strong>Penyelenggaraan sistematik</strong> = pastikan sistem beroperasi lama &amp; komponen tidak mudah rosak</li>
+        <li><strong>Sistem Penghasilan (Production):</strong> 10 komponen utama — Kompressor, Motor, Suis Tekanan, Check Valve, Tangki, Pressure Gauge, Auto Drain, Safety Valve, Air Dryer, Line Filter</li>
+        <li><strong>Sistem Penggunaan (Consumption):</strong> 6 komponen — Air Take-off, Auto-drain, Air Service Unit, Directional Valve, Actuator, Speed Controllers</li>
+        <li><strong>6 kerosakan biasa:</strong> Pemampatan tidak cukup, valve berminyak, kebocoran minyak, seal haus, karat, bising</li>
+        <li><strong>Signal Overlapping:</strong> Atasi dengan Memory Valve</li>
+        <li><strong>6 teknik uji kebocoran:</strong> Mata kasar, penunjuk tekanan, bunyi, buih sabun, pengesan elektronik, kelewatan pergerakan</li>
+        <li><strong>Jadual penyelenggaraan:</strong> 13 komponen dengan jenis semakan, kerosakan &amp; cara atasi</li>
+      </ul>
+    </div>
+
+    <div class="nota-nav">
+      <a href="nota-topik2.html">← Topik 2</a>
+      <a href="nota-topik3-ringkasan.html">Ringkasan Topik 3 →</a>
+    </div>
+
+  </section>
+
+  <footer id="footer-placeholder"></footer>
+
+  <script src="js/layout.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

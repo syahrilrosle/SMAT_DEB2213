@@ -1,0 +1,153 @@
+/* ============================================================
+   BASE — Reset, Variables, Typography
+   ============================================================ */
+
+/* ===== VARIABLES ===== */
+:root {
+  --blue: #1a237e;
+  --blue-light: #3949ab;
+  --blue-lighter: #5c6bc0;
+  --gold: #ffb300;
+  --gold-light: #ffd54f;
+  --bg: #f5f7fb;
+  --bg-card: #ffffff;
+  --text: #1a1a2e;
+  --text-light: #555770;
+  --text-lighter: #8891a8;
+  --border: #e0e4ee;
+  --shadow-sm: 0 2px 6px rgba(26, 35, 126, 0.08);
+  --shadow-md: 0 4px 15px rgba(26, 35, 126, 0.10);
+  --transition: 0.3s ease;
+}
+
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* ===== TYPOGRAPHY ===== */
+h1 {
+  font-size: 1.8rem;
+  margin: 30px 0 15px;
+  color: var(--blue);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin: 30px 0 15px;
+  color: var(--blue);
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--gold);
+  display: block;
+}
+
+h3 {
+  font-size: 1.15rem;
+  margin: 20px 0 10px;
+  color: var(--blue-light);
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem;
+  margin: 15px 0 8px;
+  color: var(--blue-light);
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 12px;
+  text-align: justify;
+  color: var(--text-light);
+}
+
+ul, ol {
+  margin: 0 0 15px 25px;
+}
+
+li {
+  margin-bottom: 6px;
+  color: var(--text-light);
+}
+
+li::marker {
+  color: var(--blue-light);
+  font-weight: bold;
+}
+
+a {
+  color: var(--blue-light);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid var(--border);
+  background: #ffffff;
+  padding: 8px;
+  box-shadow: var(--shadow-sm);
+}
+
+/* ===== TABLE ===== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: var(--bg-card);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border);
+}
+
+table th {
+  background: var(--blue);
+  color: #ffffff;
+  padding: 12px 15px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 0.95rem;
+  border: 1px solid var(--blue-light);
+}
+
+table td {
+  padding: 10px 15px;
+  border: 1px solid var(--border);
+  vertical-align: top;
+  font-size: 0.95rem;
+  color: var(--text-light);
+}
+
+table tr:nth-child(even) td {
+  background: #f8f9fc;
+}
+
+table tr:hover td {
+  background: #eef1fa;
+}
+
+table td strong {
+  color: var(--blue);
+}

@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Topik 5 DEB2213 — Checking on Function of Actuator">
+  <title>Topik 5 | DEB2213</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <header id="header-placeholder"></header>
+
+  <section class="topik-hero">
+    <div class="breadcrumb">
+      <a href="index.html">Utama</a> ›
+      <a href="nota-index.html">Nota Kuliah</a> ›
+      Topik 5
+    </div>
+    <div class="topik-hero-content">
+      <div class="topik-course">DEB2213 · Basic Pneumatic and Hydraulic</div>
+      <div class="topik-sequence">Topik 5.0</div>
+      <h1 class="topik-name">Checking on Function of Actuator</h1>
+    </div>
+  </section>
+
+  <section class="section" id="main-content">
+
+    <!-- ============================================ -->
+    <!-- OBJEKTIF PEMBELAJARAN -->
+    <!-- ============================================ -->
+    <h2>Objektif Pembelajaran</h2>
+
+    <p>Pada akhir topik ini, pelajar dapat:</p>
+
+    <ul>
+      <li><strong>5.1</strong> Menerangkan pelbagai jenis penggerak mengikut prinsip asas.</li>
+      <li><strong>5.2</strong> Mengenal pasti binaan dan fungsi penggerak mengikut manual operasi.</li>
+      <li><strong>5.3</strong> Mengenal pasti jenis penggerak mengikut aplikasinya.</li>
+      <li><strong>5.4</strong> Mengaplikasi prosedur keselamatan mengikut keperluan keselamatan.</li>
+      <li><strong>5.5</strong> Menyatakan instrumen pengukuran yang sesuai digunakan mengikut spesifikasi standard.</li>
+      <li><strong>5.6</strong> Mengendalikan instrumen pengukuran mengikut spesifikasi standard.</li>
+      <li><strong>5.7</strong> Memeriksa keadaan penggerak mengikut spesifikasi standard.</li>
+      <li><strong>5.8</strong> Menjadualkan keputusan mengikut manual pengujian pengeluar.</li>
+    </ul>
+
+    <!-- ============================================ -->
+    <!-- 5.0 PENGENALAN -->
+    <!-- ============================================ -->
+    <h2>5.0 Pengenalan Penggerak</h2>
+
+    <div class="fact-box">
+      <div class="fact-icon">⚙️</div>
+      <div class="fact-content">
+        <div class="fact-title">Fungsi Penggerak (Actuator)</div>
+        <p class="fact-text">Penggerak pneumatik &amp; hidraulik digunakan untuk <strong>menukarkan tenaga atau daya angin mampatan kepada pergerakan secara mekanikal</strong>. Ia merupakan komponen yang terakhir sekali digunakan dalam sistem pneumatik &amp; hidraulik.</p>
+      </div>
+    </div>
+
+    <div class="fact-box">
+      <div class="fact-icon">💪</div>
+      <div class="fact-content">
+        <div class="fact-title">Daya Yang Terhasil</div>
+        <p class="fact-text">Daya yang terhasil bergantung kepada <strong>diameter silinder dan tekanan udara</strong>. Gerakan penggerak boleh dikelaskan kepada <strong>pergerakan linear</strong> atau <strong>gerakan sudut</strong>.</p>
+      </div>
+    </div>
+
+    <h3>Jenis-Jenis Penggerak</h3>
+
+    <div class="icon-grid">
+      <div class="icon-card">
+        <span class="icon-box">🔧</span>
+        <div class="icon-title">Silinder Pneumatik / Hidraulik</div>
+        <div class="icon-desc">Pergerakan linear</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">⭐</span>
+        <div class="icon-title">Silinder Istimewa</div>
+        <div class="icon-desc">Rod kembar, iring, berbilang, mengunci</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🔄</span>
+        <div class="icon-title">Penggerak Berputar</div>
+        <div class="icon-desc">Rak &amp; pinion, ram, motor udara</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🎯</span>
+        <div class="icon-title">Penggerak Istimewa</div>
+        <div class="icon-desc">Tanpa rod, unit gelangsar, cuk udara</div>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- 5.1 BINAAN SILINDER -->
+    <!-- ============================================ -->
+    <h2>5.1 Binaan Silinder Pneumatik &amp; Hidraulik</h2>
+
+    <p>Binaan silinder berubah-ubah bergantung kepada penggunaannya dan boleh dibahagikan kepada beberapa bahagian:</p>
+
+    <div class="icon-grid">
+      <div class="icon-card">
+        <span class="icon-box">📏</span>
+        <div class="icon-title">Tiub Silinder</div>
+        <div class="icon-desc">Tempat piston menggelongsor — keluli berkarbon, aluminium, stainless steel</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🔒</span>
+        <div class="icon-title">Penutup Silinder</div>
+        <div class="icon-desc">Menutup kedua hujung — besi tuang / aluminium die-casting</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🔘</span>
+        <div class="icon-title">Piston</div>
+        <div class="icon-desc">Terima tekanan, gelongsor dalam tiub — besi tuang, aluminium, keluli</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">➖</span>
+        <div class="icon-title">Piston Rod</div>
+        <div class="icon-desc">Pindah kuasa keluar — keluli berkarbon, disalut krom keras</div>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- 5.2 JENIS SILINDER LELURUS -->
+    <!-- ============================================ -->
+    <h2>5.2 Jenis-Jenis Silinder Lelurus</h2>
+
+    <div class="comparison">
+      <div class="comparison-card pneumatik">
+        <span class="comparison-icon">➡️</span>
+        <div class="comparison-title">Silinder Satu Tindakan</div>
+        <ul>
+          <li>Gerak keluar guna angin mampatan</li>
+          <li>Kembali guna spring</li>
+          <li>Jimat udara</li>
+          <li>Sesuai beban ringan</li>
+        </ul>
+      </div>
+      <div class="comparison-card hidraulik">
+        <span class="comparison-icon">↔️</span>
+        <div class="comparison-title">Silinder Dua Tindakan</div>
+        <ul>
+          <li>Gerak keluar &amp; masuk guna angin</li>
+          <li>Tiada spring</li>
+          <li>Kawalan penuh dua arah</li>
+          <li>Sesuai beban berat</li>
+        </ul>
+      </div>
+    </div>
+
+    <h3>5.2.1 Silinder Satu Tindakan</h3>
+
+    <p>Silinder satu tindakan menggerakkan piston keluar menggunakan kuasa angin mampatan tetapi menggunakan <strong>spring untuk kembali kepada kedudukan asal</strong>.</p>
+
+    <img src="images/topik5/silinder-1-tindakan-model.png" alt="Model Silinder Satu Tindakan">
+    <p><em>Rajah 5.1: Model silinder satu tindakan</em></p>
+
+    <img src="images/topik5/silinder-1-tindakan-keratan.png" alt="Keratan Rentas Silinder Satu Tindakan">
+    <p><em>Rajah 5.2: Keratan rentas silinder satu tindakan</em></p>
+
+    <h3>5.2.2 Silinder Dua Tindakan</h3>
+
+    <p>Silinder dua tindakan menggerakkan piston <strong>keluar dan masuk dengan menggunakan kuasa angin</strong>.</p>
+
+    <img src="images/topik5/silinder-2-tindakan-model.png" alt="Model Silinder Dua Tindakan">
+    <p><em>Rajah 5.3: Model silinder dua tindakan</em></p>
+
+    <img src="images/topik5/silinder-2-tindakan-keratan.png" alt="Keratan Rentas Silinder Dua Tindakan">
+    <p><em>Rajah 5.4: Keratan rentas silinder dua tindakan</em></p>
+
+    <h4>4 Fasa Pergerakan Silinder Dua Tindakan</h4>
+
+    <img src="images/topik5/pergerakan-silinder-2-i.png" alt="Piston Masuk Keseluruhan">
+    <p><em>Rajah 5.5: (i) Piston masuk keseluruhannya — angin menolak di bahagian hadapan</em></p>
+
+    <img src="images/topik5/pergerakan-silinder-2-ii.png" alt="Mula Keluar">
+    <p><em>Rajah 5.6: (ii) Pergerakan permulaan angin untuk tolak piston keluar</em></p>
+
+    <img src="images/topik5/pergerakan-silinder-2-iii.png" alt="Keluar Penuh">
+    <p><em>Rajah 5.7: (iii) Angin menolak piston keluar sepenuhnya</em></p>
+
+    <img src="images/topik5/pergerakan-silinder-2-iv.png" alt="Mula Masuk Semula">
+    <p><em>Rajah 5.8: (iv) Pergerakan permulaan angin untuk tarik piston masuk semula</em></p>
+
+    <!-- ============================================ -->
+    <!-- 5.3 PENGKUSYENAN DALAM SILINDER -->
+    <!-- ============================================ -->
+    <h2>5.3 Pengkusyenan Dalam Silinder</h2>
+
+    <div class="safety-box">
+      <div class="safety-icon">⚠️</div>
+      <div class="safety-content">
+        <div class="safety-title">Mengapa Perlu Pengkusyenan?</div>
+        <p class="safety-text">Apabila piston bergerak dengan kelajuan tinggi, daya hentakan yang terhasil apabila piston menyentuh penutup silinder atau penutup rod boleh menyebabkan <strong>kerosakan kepada penutup silinder, rod, atau piston</strong>. Untuk mengelakkan kerosakan, pengkusyenan perlu dipasang pada silinder di bahagian hadapan atau belakang.</p>
+      </div>
+    </div>
+
+    <img src="images/topik5/pengkusyenan-keratan.png" alt="Keratan Pengkusyenan">
+    <p><em>Rajah 5.9: Keratan rentas injap pengkusyenan</em></p>
+
+    <img src="images/topik5/pengkusyenan-model.png" alt="Model Pengkusyenan">
+    <p><em>Rajah 5.10: Model injap pengkusyenan</em></p>
+
+    <div class="icon-grid">
+      <div class="icon-card">
+        <span class="icon-box">💨</span>
+        <div class="icon-title">Pengkusyenan Udara</div>
+        <div class="icon-desc">Untuk silinder diameter &gt; 40 mm</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">🧽</span>
+        <div class="icon-title">Penyerap Getah</div>
+        <div class="icon-desc">Untuk silinder kecil, bahan elastik</div>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- 5.4 PENCAGAK SILINDER -->
+    <!-- ============================================ -->
+    <h2>5.4 Pencagak Silinder</h2>
+
+    <p>Silinder jenis piawai <strong>tidak direka untuk menyerap beban dari bahagian sisi piston</strong>. Oleh itu silinder mestilah dipasang dengan berhati-hati dan tepat bagi memastikan pergerakan beban selari dan seimbang dengan garis tengah silinder.</p>
+
+    <h3>7 Jenis Pencagak Silinder</h3>
+
+    <div class="symbol-grid">
+      <div class="symbol-card">
+        <img src="images/topik5/pencagak-terus.png" alt="Pencagak Terus">
+        <div class="symbol-name">Pencagak Terus</div>
+        <div class="symbol-desc">Direct — dipasang terus pada permukaan depan rod</div>
+      </div>
+      <div class="symbol-card">
+        <img src="images/topik5/pencagak-bebenang.png" alt="Pencagak Bebenang">
+        <div class="symbol-name">Pencagak Bebenang</div>
+        <div class="symbol-desc">Threaded Neck — guna nat pengunci hadapan</div>
+      </div>
+      <div class="symbol-card">
+        <img src="images/topik5/pencagak-berkaki.png" alt="Pencagak Berkaki">
+        <div class="symbol-name">Pencagak Berkaki</div>
+        <div class="symbol-desc">Foot Mount — dua kaki di hadapan &amp; belakang</div>
+      </div>
+      <div class="symbol-card">
+        <img src="images/topik5/pencagak-gantungan-belakang.png" alt="Pencagak Gantungan Belakang">
+        <div class="symbol-name">Pencagak Gantungan Belakang</div>
+        <div class="symbol-desc">Rear Flange — kekunci di bahagian belakang</div>
+      </div>
+      <div class="symbol-card">
+        <img src="images/topik5/pencagak-gantungan-hadapan.png" alt="Pencagak Gantungan Hadapan">
+        <div class="symbol-name">Pencagak Gantungan Hadapan</div>
+        <div class="symbol-desc">Front Flange — kekunci di bahagian hadapan</div>
+      </div>
+      <div class="symbol-card">
+        <img src="images/topik5/pencagak-ayunan-belakang.png" alt="Pencagak Ayunan Belakang">
+        <div class="symbol-name">Pencagak Ayunan Belakang</div>
+        <div class="symbol-desc">Rear Clevis — sendi boleh berayun</div>
+      </div>
+      <div class="symbol-card">
+        <img src="images/topik5/pencagak-trunnion.png" alt="Pencagak Trunnion">
+        <div class="symbol-name">Pencagak Trunnion</div>
+        <div class="symbol-desc">Bersendi di tengah silinder</div>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- 5.5 SILINDER ISTIMEWA -->
+    <!-- ============================================ -->
+    <h2>5.5 Silinder Istimewa</h2>
+
+    <p>Selain silinder lelurus, terdapat beberapa lagi jenis silinder yang boleh dikategorikan sebagai silinder istimewa:</p>
+
+    <h3>5.5.1 Silinder Rod Kembar</h3>
+
+    <p>Mempunyai dua bahagian rod — silinder bergerak ke kiri dan ke kanan sepanjang rod. Biasanya digunakan untuk menggerakkan bahan kerja ke satu jarak yang lebih jauh. Satu plat seakan meja diletakkan dan dikunci di bahagian atas silinder tersebut. Meja tersebut akan bergerak bersama-sama silinder tersebut.</p>
+
+    <img src="images/topik5/silinder-rod-kembar-binaan.png" alt="Binaan Silinder Rod Kembar">
+    <p><em>Rajah 5.11: Binaan rod kembar</em></p>
+
+    <img src="images/topik5/silinder-rod-kembar-pemasangan.png" alt="Pemasangan Silinder Rod Kembar">
+    <p><em>Rajah 5.12: Pemasangan rod kembar</em></p>
+
+    <h3>5.5.2 Silinder Iring</h3>
+
+    <p>Direka dengan <strong>pelinciran dalaman</strong> untuk memastikan pergerakan yang lancar sepanjang masa. Diperbuat daripada nat/bolt yang mempunyai sifat kekuatan dan ketegangan yang tinggi.</p>
+
+    <img src="images/topik5/silinder-iring-model.png" alt="Silinder Iring">
+    <p><em>Rajah 5.13: (a) Silinder iring</em></p>
+
+    <img src="images/topik5/silinder-iring-keratan.png" alt="Keratan Rentas Silinder Iring">
+    <p><em>Rajah 5.14: (b) Keratan rentas silinder iring</em></p>
+
+    <h3>5.5.3 Silinder Berbilang Kedudukan</h3>
+
+    <p>Mempunyai dua hujung yang dipasang secara tetap pada kedudukan benda kerja. Sesuai untuk operasi yang melibatkan silinder dua tindakan atau lebih. Dilengkapi dengan <strong>Sensor Reed Switch</strong> untuk aplikasi tertentu.</p>
+
+    <img src="images/topik5/silinder-berbilang.png" alt="Silinder Berbilang Kedudukan">
+    <p><em>Rajah 5.15: Silinder berbilang kedudukan</em></p>
+
+    <h3>5.5.4 Silinder Mengunci</h3>
+
+    <p>Boleh berhenti di mana-mana bahagian sepanjang rod silinder dan boleh dikunci pada kedudukan tersebut. Mekanisma kekunci boleh terdiri dari jenis <strong>spring, tekanan udara atau kedua-duanya</strong>.</p>
+
+    <img src="images/topik5/silinder-mengunci-model.png" alt="Model Silinder Mengunci">
+    <p><em>Rajah 5.16: Model silinder mengunci</em></p>
+
+    <img src="images/topik5/silinder-mengunci-binaan.png" alt="Binaan Silinder Mengunci">
+    <p><em>Rajah 5.17: Binaan silinder mengunci</em></p>
+
+    <!-- ============================================ -->
+    <!-- 5.6 PENGGERAK PUTAR -->
+    <!-- ============================================ -->
+    <h2>5.6 Penggerak Putar</h2>
+
+    <p>Terdapat tiga jenis penggerak putar yang utama:</p>
+
+    <h3>5.6.1 Penggerak Jenis Rak dan Pinion</h3>
+
+    <p>Shaft keluaran mempunyai gear pinion terkamil yang digerakkan oleh rak yang bersambung dengan dua piston. Sudut piawai putaran ialah <strong>90° atau 180°</strong>.</p>
+
+    <img src="images/topik5/penggerak-rak-pinion-model.png" alt="Model Penggerak Rak dan Pinion">
+    <p><em>Rajah 5.18: Model penggerak jenis rak dan pinion</em></p>
+
+    <img src="images/topik5/penggerak-rak-pinion-binaan.png" alt="Binaan Penggerak Rak dan Pinion">
+    <p><em>Rajah 5.19: Binaan penggerak jenis rak dan pinion</em></p>
+
+    <h3>5.6.2 Penggerak Jenis Ram</h3>
+
+    <p>Angin termampat bertindak memasuki lubang udara yang bersambung kepada aci keluaran. Lubang udara dilindungi daripada kebocoran menggunakan <strong>pelindung getah atau saduran elastomer</strong>.</p>
+
+    <img src="images/topik5/penggerak-ram-model.png" alt="Model Penggerak Jenis Ram">
+    <p><em>Rajah 5.20: Model penggerak jenis ram</em></p>
+
+    <img src="images/topik5/penggerak-ram-putaran.png" alt="Prosedur Kerja Penggerak Ram">
+    <p><em>Rajah 5.21: Prosedur kerja penggerak jenis ram — 90°, 180°, 270°</em></p>
+
+    <div class="fact-box">
+      <div class="fact-icon">🔄</div>
+      <div class="fact-content">
+        <div class="fact-title">Prinsip Kerja Penggerak Ram</div>
+        <p class="fact-text">Apabila angin termampat memasuki bahagian lubang udara, ram akan ditolak untuk berputar. Sementara itu, aci juga berputar kepada sudut yang dikehendaki iaitu <strong>90°, 180° atau 270°</strong>.</p>
+      </div>
+    </div>
+
+    <h3>5.6.3 Motor Udara</h3>
+
+    <p>Motor udara banyak digunakan dalam industri dan automotif — pemutar skru, mesin penggerudi, mesin pencanai. Motor udara menghasilkan keluaran <strong>daya kilas yang berterusan</strong> untuk menggerakkan aci.</p>
+
+    <h4>Kebaikan Motor Udara</h4>
+
+    <div class="icon-grid">
+      <div class="icon-card">
+        <span class="icon-box">✅</span>
+        <div class="icon-title">Mudah Kawal Kelajuan</div>
+        <div class="icon-desc">Larasan senang</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">✅</span>
+        <div class="icon-title">Daya Kilas Tinggi</div>
+        <div class="icon-desc">Untuk beban berat</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">✅</span>
+        <div class="icon-title">Mudah Kawal Arah</div>
+        <div class="icon-desc">Putaran dua arah</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">✅</span>
+        <div class="icon-title">Selamat</div>
+        <div class="icon-desc">Sesuai persekitaran mudah terbakar</div>
+      </div>
+    </div>
+
+    <h4>5 Jenis Motor Udara</h4>
+
+    <div class="icon-grid">
+      <div class="icon-card">
+        <span class="icon-box">1️⃣</span>
+        <div class="icon-title">Motor Ram</div>
+        <div class="icon-desc">Vane type</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">2️⃣</span>
+        <div class="icon-title">Motor Gear</div>
+        <div class="icon-desc">Gear type</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">3️⃣</span>
+        <div class="icon-title">Motor Piston</div>
+        <div class="icon-desc">Piston type</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">4️⃣</span>
+        <div class="icon-title">Motor Turbin</div>
+        <div class="icon-desc">Turbine type</div>
+      </div>
+      <div class="icon-card">
+        <span class="icon-box">5️⃣</span>
+        <div class="icon-title">Motor Impal</div>
+        <div class="icon-desc">Impeller type</div>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- 5.7 PENGGERAK ISTIMEWA -->
+    <!-- ============================================ -->
+    <h2>5.7 Penggerak Istimewa</h2>
+
+    <p>Terdapat empat jenis penggerak yang boleh dikategorikan sebagai penggerak istimewa:</p>
+
+    <h3>5.7.1 Silinder Tanpa Rod</h3>
+
+    <p>Terdapat dua jenis — <strong>sambungan magnet</strong> dan <strong>sambungan mekanikal</strong>. Sebuah silinder konvensional yang mempunyai panjang tunjahan 500 mm mungkin memerlukan panjang tunjahan keseluruhan sebanyak 1100 mm. Sebuah silinder tanpa rod yang mempunyai panjang tunjahan yang sama hanya memerlukan panjang keseluruhan 600 mm. Oleh itu, silinder tanpa rod adalah pilihan terbaik apabila berhadapan dengan ruang yang terhad tetapi memerlukan tunjahan yang panjang.</p>
+
+    <h4>a) Sambungan Magnet</h4>
+
+    <img src="images/topik5/silinder-tanpa-rod-magnet-model.png" alt="Model Silinder Tanpa Rod Magnet">
+    <p><em>Rajah 5.22: Silinder tanpa rod — sambungan magnet (model)</em></p>
+
+    <img src="images/topik5/silinder-tanpa-rod-magnet-binaan.png" alt="Binaan Silinder Tanpa Rod Magnet">
+    <p><em>Rajah 5.23: Silinder tanpa rod — sambungan magnet (binaan)</em></p>
+
+    <h4>b) Sambungan Mekanikal</h4>
+
+    <img src="images/topik5/silinder-tanpa-rod-mekanikal-model.png" alt="Model Silinder Tanpa Rod Mekanikal">
+    <p><em>Rajah 5.24: Silinder tanpa rod — sambungan mekanikal (model)</em></p>
+
+    <img src="images/topik5/silinder-tanpa-rod-mekanikal-binaan.png" alt="Binaan Silinder Tanpa Rod Mekanikal">
+    <p><em>Rajah 5.25: Silinder tanpa rod — sambungan mekanikal (binaan)</em></p>
+
+    <h3>5.7.2 Unit Gelangsar</h3>
+
+    <p>Penggerak lelurus yang <strong>berketepatan tinggi</strong> bagi kegunaan industri pengeluaran dan pembinaan robot.</p>
+
+    <img src="images/topik5/unit-gelangsar-model.png" alt="Model Unit Gelangsar">
+    <p><em>Rajah 5.26: Unit gelangsar (model)</em></p>
+
+    <img src="images/topik5/unit-gelangsar-binaan.png" alt="Binaan Unit Gelangsar">
+    <p><em>Rajah 5.27: Binaan unit gelangsar</em></p>
+
+    <h3>5.7.3 Silinder Rod Bergeronggang</h3>
+
+    <p>Menyediakan sambungan secara terus di antara peralatan penjanaan vakum dan pad vakum pada hujung rod kerja. Direka khas untuk kegunaan <strong>ambil dan letak (pick and place)</strong>.</p>
+
+    <img src="images/topik5/silinder-rod-bergeronggang-model.png" alt="Model Silinder Rod Bergeronggang">
+    <p><em>Rajah 5.28: Silinder rod bergeronggang (model)</em></p>
+
+    <img src="images/topik5/silinder-rod-bergeronggang-binaan.png" alt="Binaan Silinder Rod Bergeronggang">
+    <p><em>Rajah 5.29: Binaan silinder rod bergeronggang</em></p>
+
+    <h3>5.7.4 Cuk Udara (Penggenggam)</h3>
+
+    <p>Direka untuk <strong>memegang komponen</strong> di dalam industri. Banyak digunakan sebagai <strong>tangan kepada robot</strong>. Cuk udara mempunyai dua piston yang berfungsi untuk membuka dan menutup jaw.</p>
+
+    <img src="images/topik5/cuk-udara-model.png" alt="Model Cuk Udara">
+    <p><em>Rajah 5.30: Cuk udara (model)</em></p>
+
+    <img src="images/topik5/cuk-udara-binaan.png" alt="Binaan Cuk Udara">
+    <p><em>Rajah 5.31: Binaan cuk udara</em></p>
+
+    <!-- ============================================ -->
+    <!-- RUMUSAN TOPIK 5 -->
+    <!-- ============================================ -->
+    <div class="rumusan-box">
+      <h3>Rumusan Topik 5</h3>
+      <ul>
+        <li><strong>Penggerak</strong> = tukar tenaga angin → gerakan mekanikal (linear atau sudut)</li>
+        <li><strong>Binaan silinder:</strong> Tiub + Penutup + Piston + Piston Rod</li>
+        <li><strong>2 jenis silinder lelurus:</strong> Satu Tindakan (spring) &amp; Dua Tindakan (angin dua arah)</li>
+        <li><strong>Pengkusyenan:</strong> Udara (silinder besar) atau getah (silinder kecil)</li>
+        <li><strong>7 jenis pencagak:</strong> Terus, Bebenang, Berkaki, Gantungan Belakang/Hadapan, Ayunan Belakang, Trunnion</li>
+        <li><strong>4 jenis silinder istimewa:</strong> Rod Kembar, Iring, Berbilang Kedudukan, Mengunci</li>
+        <li><strong>3 jenis penggerak putar:</strong> Rak &amp; Pinion, Ram, Motor Udara</li>
+        <li><strong>5 jenis motor udara:</strong> Ram, Gear, Piston, Turbin, Impal</li>
+        <li><strong>4 jenis penggerak istimewa:</strong> Silinder Tanpa Rod, Unit Gelangsar, Silinder Rod Bergeronggang, Cuk Udara</li>
+      </ul>
+    </div>
+
+    <div class="nota-nav">
+      <a href="nota-topik4.html">← Topik 4</a>
+      <a href="nota-topik5-ringkasan.html">Ringkasan Topik 5 →</a>
+    </div>
+
+  </section>
+
+  <footer id="footer-placeholder"></footer>
+
+  <script src="js/layout.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,347 @@
+/* ============================================================
+   INFOGRAPHIC — Visual Elements untuk Nota
+   ============================================================ */
+
+/* ============================================================
+   FACT BOX — Kotak Fakta
+   ============================================================ */
+.fact-box {
+  background: linear-gradient(135deg, #e8eaf6 0%, #c5cae9 100%);
+  border-left: 6px solid var(--blue);
+  padding: 20px 25px;
+  margin: 20px 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  box-shadow: var(--shadow-sm);
+}
+
+.fact-box .fact-icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.fact-box .fact-content {
+  flex: 1;
+}
+
+.fact-box .fact-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--blue);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.fact-box .fact-text {
+  font-size: 0.95rem;
+  color: var(--text-light);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ============================================================
+   FLOW CHART — Aliran Proses
+   ============================================================ */
+.flow-chart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 25px 0;
+  padding: 20px;
+  background: #f8f9fc;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+
+.flow-item {
+  background: var(--blue);
+  color: #ffffff;
+  padding: 12px 18px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(26, 35, 126, 0.2);
+  min-width: 100px;
+  transition: all var(--transition);
+}
+
+.flow-item:hover {
+  background: var(--gold);
+  color: var(--blue);
+  transform: translateY(-3px);
+}
+
+.flow-arrow {
+  color: var(--blue-light);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* ============================================================
+   ICON GRID — Grid dengan Icon
+   ============================================================ */
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.icon-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-top: 4px solid var(--blue);
+  padding: 20px 15px;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition);
+}
+
+.icon-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-top-color: var(--gold);
+}
+
+.icon-card .icon-box {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-card .icon-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--blue);
+  margin-bottom: 6px;
+  line-height: 1.3;
+}
+
+.icon-card .icon-desc {
+  font-size: 0.78rem;
+  color: var(--text-light);
+  line-height: 1.4;
+}
+
+/* ============================================================
+   COMPARISON CARD — Perbandingan
+   ============================================================ */
+.comparison {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 25px 0;
+}
+
+.comparison-card {
+  padding: 25px 20px;
+  text-align: center;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+}
+
+.comparison-card.pneumatik {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  border-top: 6px solid var(--blue);
+}
+
+.comparison-card.hidraulik {
+  background: linear-gradient(135deg, #e0f2f1 0%, #b2dfdb 100%);
+  border-top: 6px solid #00897b;
+}
+
+.comparison-card .comparison-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.comparison-card .comparison-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.comparison-card.pneumatik .comparison-title {
+  color: var(--blue);
+}
+
+.comparison-card.hidraulik .comparison-title {
+  color: #00695c;
+}
+
+.comparison-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.comparison-card ul li {
+  padding: 6px 0 6px 22px;
+  position: relative;
+  font-size: 0.85rem;
+  color: var(--text-light);
+  line-height: 1.5;
+}
+
+.comparison-card ul li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--blue);
+  font-weight: bold;
+}
+
+.comparison-card.hidraulik ul li::before {
+  color: #00897b;
+}
+
+/* ============================================================
+   STAT BOX — Kotak Statistik
+   ============================================================ */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.stat-box {
+  background: linear-gradient(135deg, var(--blue) 0%, var(--blue-light) 100%);
+  color: #ffffff;
+  padding: 20px 15px;
+  text-align: center;
+  box-shadow: var(--shadow-md);
+}
+
+.stat-box .stat-number {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 8px;
+  color: var(--gold);
+}
+
+.stat-box .stat-label {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+/* ============================================================
+   SAFETY BOX — Kotak Keselamatan
+   ============================================================ */
+.safety-box {
+  background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%);
+  border: 2px solid #f57c00;
+  padding: 20px 25px;
+  margin: 20px 0;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.safety-box .safety-icon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+
+.safety-box .safety-content {
+  flex: 1;
+}
+
+.safety-box .safety-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #e65100;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.safety-box .safety-text {
+  font-size: 0.9rem;
+  color: #5d4037;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ============================================================
+   STRUCTURE DIAGRAM — 5 Blok Elemen
+   ============================================================ */
+.structure-diagram {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 25px 0;
+}
+
+.structure-block {
+  background: var(--bg-card);
+  border-left: 6px solid var(--blue);
+  padding: 15px 20px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  transition: all var(--transition);
+}
+
+.structure-block:hover {
+  border-left-color: var(--gold);
+  transform: translateX(5px);
+}
+
+.structure-block .structure-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+  width: 40px;
+  text-align: center;
+}
+
+.structure-block .structure-title {
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: var(--blue);
+  margin-bottom: 4px;
+}
+
+.structure-block .structure-items {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  line-height: 1.5;
+}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 768px) {
+  .comparison {
+    grid-template-columns: 1fr;
+  }
+
+  .fact-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .safety-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .flow-chart {
+    flex-direction: column;
+  }
+
+  .flow-arrow {
+    transform: rotate(90deg);
+  }
+}

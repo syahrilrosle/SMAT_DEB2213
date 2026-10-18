@@ -1,0 +1,78 @@
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .section {
+    padding: 25px 20px;
+  }
+
+  .hero {
+    padding: 40px 20px;
+  }
+
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+
+  .topik-hero {
+    padding: 30px 20px;
+  }
+
+  .topik-hero h1 {
+    font-size: 1.3rem;
+  }
+
+  .main-header {
+    padding: 15px 20px;
+  }
+
+  .header-logo {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .header-nav {
+    justify-content: center;
+  }
+
+  .header-nav a {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+
+  .nota-nav {
+    flex-direction: column;
+  }
+
+  .nota-nav a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .symbol-grid {
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 10px;
+  }
+
+  table th,
+  table td {
+    padding: 8px 10px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.3rem;
+  }
+
+  .topik-hero h1 {
+    font-size: 1.1rem;
+  }
+
+  .symbol-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
