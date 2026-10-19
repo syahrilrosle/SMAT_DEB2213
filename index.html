@@ -124,7 +124,6 @@
             </tbody>
           </table>
 
-          <!-- Remark CLO -->
           <div class="clo-remark">
             <p>
               <strong>Nota:</strong> Setiap kod dalam jadual mempunyai maksud khusus —
@@ -293,10 +292,10 @@
         </div>
       </details>
 
-      <!-- Item 7: Penilaian Kursus -->
+      <!-- Item 7: Penilaian Kursus (KESELURUHAN) -->
       <details class="accordion-item">
         <summary class="accordion-header">
-          <span class="accordion-title">Penilaian Kursus</span>
+          <span class="accordion-title">Penilaian Kursus (Keseluruhan)</span>
           <span class="accordion-icon">+</span>
         </summary>
         <div class="accordion-body">
@@ -310,13 +309,9 @@
             </thead>
             <tbody>
               <tr>
-                <th scope="row" rowspan="2">Penilaian Berterusan</th>
-                <td>Quiz</td>
-                <td style="text-align: right;">4%</td>
-              </tr>
-              <tr>
+                <th scope="row">Penilaian Berterusan</th>
                 <td>Written Test</td>
-                <td style="text-align: right;">16%</td>
+                <td style="text-align: right;">20%</td>
               </tr>
               <tr>
                 <th scope="row" rowspan="2">Penilaian Akhir</th>
@@ -338,61 +333,111 @@
         </div>
       </details>
 
-      <!-- Item 8: Penilaian Setiap Topik -->
+      <!-- Item 8: Penilaian Setiap Topik (AST) -->
       <details class="accordion-item">
         <summary class="accordion-header">
           <span class="accordion-title">Penilaian Setiap Topik</span>
           <span class="accordion-icon">+</span>
         </summary>
         <div class="accordion-body">
+          <p>Pemetaan kaedah penilaian bagi setiap topik berdasarkan <em>Assessment Specifications Table (AST)</em>:</p>
+          
           <table>
             <thead>
               <tr>
                 <th scope="col">Topik</th>
-                <th scope="col" style="width: 18%;">CLO</th>
-                <th scope="col" style="width: 12%; text-align: center;">Quiz</th>
-                <th scope="col" style="width: 15%; text-align: center;">Written</th>
-                <th scope="col" style="width: 15%; text-align: center;">Practical</th>
+                <th scope="col" style="text-align: center;">CLO1</th>
+                <th scope="col" style="text-align: center;">CLO2</th>
+                <th scope="col" style="text-align: center;">CLO3</th>
+                <th scope="col" style="text-align: center;">Written Test</th>
+                <th scope="col" style="text-align: center;">Practical Test</th>
               </tr>
             </thead>
             <tbody>
+              <!-- Topik 1: Tiada ujian -->
               <tr>
                 <th scope="row">1.0 — Interpret Circuit Diagram</th>
-                <td>CLO1, CLO2</td>
                 <td style="text-align: center;">✓</td>
-                <td style="text-align: center;">✓</td>
-                <td style="text-align: center;"><strong>40%</strong></td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">—</td>
               </tr>
+              
+              <!-- Topik 2: 1 Practical (PT1) -->
               <tr>
                 <th scope="row">2.0 — Check Function &amp; Replace Components</th>
-                <td>CLO1, CLO2</td>
+                <td style="text-align: center;">—</td>
                 <td style="text-align: center;">✓</td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">1 Ujian (PT1)</td>
+              </tr>
+
+              <!-- Topik 3: 1 Written (Essay) + 2 Practical (PT2, PT3) -->
+              <tr>
+                <th scope="row" rowspan="3">3.0 — Perform Maintenance</th>
                 <td style="text-align: center;">✓</td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">1 Ujian (Essay)</td>
                 <td style="text-align: center;">—</td>
               </tr>
               <tr>
-                <th scope="row">3.0 — Perform Maintenance</th>
-                <td>CLO1, CLO2, CLO3</td>
-                <td style="text-align: center;">✓</td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">—</td>
                 <td style="text-align: center;">✓</td>
                 <td style="text-align: center;">—</td>
+                <td style="text-align: center;">1 Ujian (PT2)</td>
               </tr>
               <tr>
-                <th scope="row">4.0 — Check Function of Circuit</th>
-                <td>CLO1, CLO2</td>
-                <td style="text-align: center;">✓</td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">—</td>
                 <td style="text-align: center;">✓</td>
                 <td style="text-align: center;">—</td>
+                <td style="text-align: center;">1 Ujian (PT3)</td>
               </tr>
+
+              <!-- Topik 4: 2 Practical (PT4, PT5) -->
+              <tr>
+                <th scope="row" rowspan="2">4.0 — Check Function of Circuit</th>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">✓</td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">1 Ujian (PT4)</td>
+              </tr>
+              <tr>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">✓</td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">1 Ujian (PT5)</td>
+              </tr>
+
+              <!-- Topik 5: 1 Practical (PT6) -->
               <tr>
                 <th scope="row">5.0 — Checking Actuator</th>
-                <td>CLO1, CLO2</td>
-                <td style="text-align: center;">✓</td>
+                <td style="text-align: center;">—</td>
+                <td style="text-align: center;">—</td>
                 <td style="text-align: center;">✓</td>
                 <td style="text-align: center;">—</td>
+                <td style="text-align: center;">1 Ujian (PT6)</td>
+              </tr>
+              
+              <!-- Footer Jumlah -->
+              <tr style="background: #eef1fa; border-top: 2px solid var(--border);">
+                <th scope="row" style="text-align: right;">Jumlah Pemberat:</th>
+                <td colspan="3"></td>
+                <td style="text-align: center;"><strong>20%</strong></td>
+                <td style="text-align: center;"><strong>40% (6 Ujian)</strong></td>
               </tr>
             </tbody>
           </table>
+          
+          <p class="muted" style="margin-top: 15px; font-size: 0.85rem; color: var(--text-lighter);">
+            <em>* Topik 1.0 merupakan asas tanpa ujian khusus. Pemberat 40% Practical Test merangkumi 6 ujian praktikal (PT1–PT6) di Topik 2, 3, 4, dan 5.</em>
+          </p>
         </div>
       </details>
 
@@ -484,9 +529,9 @@
 
       <p class="muted">
         <strong>Kursus ini menyumbang kepada:</strong><br>
-        CLO1 → PLO1 (20%)<br>
-        CLO2 → PLO2 (40%)<br>
-        CLO3 → PLO2 (40%)
+        CLO1 → PLO1<br>
+        CLO2 → PLO2<br>
+        CLO3 → PLO2
       </p>
     </div>
   </div>
